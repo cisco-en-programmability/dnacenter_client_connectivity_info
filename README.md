@@ -25,7 +25,7 @@ This app is to be used only in demo or lab environments, it is not written for p
 
 - Cisco DNA Center
 - Cisco Network Devices managed by Cisco DNA Center
-- clients
+- Clients
 
 **Tools & Frameworks:**
 
