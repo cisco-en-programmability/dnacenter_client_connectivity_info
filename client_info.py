@@ -54,7 +54,7 @@ def main():
     """
     This application will return the client connection info by MAC address.
     The user will be asked to enter a client MAC address in the colon hexadecimal format.
-    It will collect the current, ot last known, client connection info from Cisco DNA Center.
+    It will collect the current, or last known, client connection info from Cisco DNA Center.
      - Client Status: connected or disconnected
      - Last Updated: local time zone timestamp
      - Client Connection: wired or wireless
