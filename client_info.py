@@ -43,12 +43,11 @@ DNAC_URL = os.getenv('DNAC_URL')
 DNAC_USER = os.getenv('DNAC_USER')
 DNAC_PASS = os.getenv('DNAC_PASS')
 
+
 os.environ['TZ'] = 'America/Los_Angeles'  # define the timezone for PST
 time.tzset()  # adjust the timezone, more info https://help.pythonanywhere.com/pages/SettingTheTimezone/
 
 urllib3.disable_warnings(InsecureRequestWarning)  # disable insecure https warnings
-
-DNAC_AUTH = HTTPBasicAuth(DNAC_USER, DNAC_PASS)
 
 
 def main():
@@ -114,7 +113,8 @@ def main():
         client_connection_info += '\nLast Updated: ' + last_updated
         client_connection_info += '\nClient Connection: ' + connection_type
         client_connection_info += '\nConnected to device: ' + device_name
-        client_connection_info += '\nConnected to switchport: ' + port
+        if port:
+            client_connection_info += '\nConnected to switchport: ' + port
         client_connection_info += '\nBuilding/Floor: ' + location
         print(client_connection_info)
 

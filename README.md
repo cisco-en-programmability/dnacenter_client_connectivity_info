@@ -69,7 +69,23 @@ Client Info App Run End,  2021-05-12 15:59:08
 
 ~~~
 
- 
+Sample output for wireless client:
+
+~~~
+
+Client Info App Start,  2021-05-12 17:09:19
+Enter the client MAC address in the colon hexadecimal notation xx:xx:xx:xx:xx:xx : F0:8A:76:25:18:72
+
+Client Status: Connected
+Last Updated: 2021-05-12 17:06:00
+Client Connection: WIRELESS
+Connected to device: C9120.B9B4
+Building/Floor: San Jose/SJ04/Fl3
+
+Client Info App Run End,  2021-05-12 17:09:25
+
+~~~
+
 This sample code is for proof of concepts and labs
 
 **License**
