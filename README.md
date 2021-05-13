@@ -2,16 +2,16 @@
 # Cisco DNA Center Client Connectivity Info
 
 
-This application will return the client connectivity info by MAC address.
+This application will return the client connectivity info for a client specified by MAC address.
 
 The user will be asked to enter a client MAC address in the colon hexadecimal format.
 
-It will collect the current, or last known, client connection info from Cisco DNA Center.
+This application will collect the current, or last known, client connectivity info from Cisco DNA Center.
  - Client Status: connected or disconnected
- - Last Updated: local time zone timestamp
+ - Last Updated: local timezone timestamp
  - Client Connection: wired or wireless
- - Connected to device: device hostname
- - Connected to switchport: interface name if available
+ - Connected to device: access device hostname
+ - Connected to switchport: interface name if wired connection
  - Building/Floor: location
 
 This script is using environment variables for the Cisco DNA Center URL, username and password.
