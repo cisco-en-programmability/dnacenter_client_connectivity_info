@@ -1,5 +1,5 @@
 
-# Cisco DNA Center Client Connection Info
+# Cisco DNA Center Client Connectivity Info
 
 
 This application will return the client connection info by MAC address.
