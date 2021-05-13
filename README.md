@@ -2,7 +2,7 @@
 # Cisco DNA Center Client Connectivity Info
 
 
-This application will return the client connection info by MAC address.
+This application will return the client connectivity info by MAC address.
 
 The user will be asked to enter a client MAC address in the colon hexadecimal format.
 
